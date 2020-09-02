@@ -1,0 +1,9 @@
+<?php
+
+namespace FondOfSpryker\Client\ProductResourceAliasStorage\Storage;
+
+use Spryker\Client\ProductResourceAliasStorage\Storage\ProductAbstractStorageReaderInterface as SprykerProductAbstractStorageReaderInterface;
+
+interface ProductAbstractStorageReaderInterface extends SprykerProductAbstractStorageReaderInterface
+{
+}
