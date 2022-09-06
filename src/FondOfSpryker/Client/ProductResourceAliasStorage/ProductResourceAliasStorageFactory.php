@@ -15,7 +15,6 @@ class ProductResourceAliasStorageFactory extends SprykerProductResourceAliasStor
         return new ProductConcreteStorageBySkuReader(
             $this->getStorageClient(),
             $this->getSynchronizationService(),
-            $this->getStore()
         );
     }
 }
